@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+.prata-regular {
+  font-family: 'Prata', serif;
+}
+@import "tailwindcss";
+
+a.active hr{
+  display: block;
+}
+
+::-webkit scrollbar {
+  display: none;
+}
+ 
+
+@media (max-width: 640px){
+  a.active {
+    background-color: #f3f4f6;
+    color:black;
+
+  }
+ 
+}
