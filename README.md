@@ -2,29 +2,29 @@
 
 A modern, full-stack e-commerce web application built with the MERN stack (MongoDB, Express.js, React.js, Node.js).
 
-## 🌟 Live Demo coming soon
+##  Live Demo coming soon
 - **Frontend:** [NOVACART Store](#)
 - **Backend:** [NOVACART Store](#)
 - **Admin Panel:** [NOVACART Admin](#)
 
-## 🚀 Features
+##  Features
 
 ### Customer Features
-- 🛍️ Browse products by category and subcategory
-- 🔍 Search products
-- 🛒 Add to cart and manage cart
-- 💳 Multiple payment methods (Stripe, Razorpay, Cash on Delivery)
-- 📦 Track orders
-- 👤 User authentication (Login/Register)
-- 📱 Fully responsive design
+-  Browse products by category and subcategory
+-  Search products
+-  Add to cart and manage cart
+-  Multiple payment methods (Stripe, Razorpay, Cash on Delivery)
+-  Track orders
+-  User authentication (Login/Register)
+-  Fully responsive design
 
 ### Admin Features
-- ➕ Add, edit and remove products
-- 📋 View and manage all orders
-- 🔄 Update order status
-- 🔐 Secure admin authentication
+-  Add, edit and remove products
+-  View and manage all orders
+-  Update order status
+-  Secure admin authentication
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 - React.js
@@ -49,9 +49,9 @@ A modern, full-stack e-commerce web application built with the MERN stack (Mongo
 - Razorpay
 - Cash on Delivery
 
-## 📁 Project Structure
+##  Project Structure
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
 ### Prerequisites
 - Node.js (v18 or higher)
@@ -123,7 +123,7 @@ Run admin:
 npm run dev
 ```
 
-## 🌐 API Endpoints
+##  API Endpoints
 
 ### User Routes
 | Method | Endpoint | Description |
@@ -159,18 +159,18 @@ npm run dev
 | POST | /api/order/list | Get all orders (Admin) |
 | POST | /api/order/status | Update order status (Admin) |
 
-## 👨‍💻 Developer
+##  Developer
 
 **Dhiraj Kumar**
 - LinkedIn: [Dhiraj Kumar](https://www.linkedin.com/in/dhiraj-kumar-275218289)
 - GitHub: [Dhiraj-student-101](https://github.com/Dhiraj-student-101)
 - Email: dhirajkumar887350@gmail.com
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License.
 
-## 🙏 Acknowledgements
+##  Acknowledgements
 
 - [React.js](https://reactjs.org/)
 - [Node.js](https://nodejs.org/)
