@@ -2,8 +2,9 @@
 
 A modern, full-stack e-commerce web application built with the MERN stack (MongoDB, Express.js, React.js, Node.js).
 
-## 🌟 Live Demo
+## 🌟 Live Demo coming soon
 - **Frontend:** [NOVACART Store](#)
+- **Backend:** [NOVACART Store](#)
 - **Admin Panel:** [NOVACART Admin](#)
 
 ## 🚀 Features
