@@ -32,7 +32,7 @@ const PlaceOrder = () => {
             key: import.meta.env.VITE_RAZORPAY_KEY_ID,
             amount: order.amount,
             currency: order.currency,
-            name: 'Forever',
+            name: 'Novacart',
             description: 'Order Payment',
             order_id: order.id,
             receipt: order.receipt,

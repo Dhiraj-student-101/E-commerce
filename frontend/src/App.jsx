@@ -6,6 +6,8 @@ import Verify from './pages/Verify'
 
 
 
+
+
 import Home from './pages/Home';
 import Collection from './pages/Collection';
 import Product from './pages/Product';

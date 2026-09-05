@@ -17,7 +17,7 @@ const Contact = () => {
                 <div className='flex flex-col justify-center items-start gap-6'>
                     <p className='font-semibold text-xl text-gray-600'>Our Store</p>
                     <p className='text-gray-500'>Patna, Bihar, India</p>
-                    <p className='text-gray-500'>Tel: +91-9508916860 <br /> Email: dhirajkumar@gmail.com</p>
+                    <p className='text-gray-500'>Tel: +91-8874123654 <br /> Email: dhirajkumar@gmail.com</p>
 
                     <p className='font-semibold text-xl text-gray-600'>Careers at Forever</p>
                     <p className='text-gray-500'>Learn more about our teams and job openings.</p>
