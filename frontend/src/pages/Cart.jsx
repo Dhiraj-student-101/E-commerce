@@ -4,7 +4,8 @@ import Title from '../components/Title'
 import { assets } from '../assets/assets'
 
 const Cart = () => {
-    const { products, currency, cartItems, updateQuantity, getCartAmount, delivery_fee, navigate } = useContext(ShopContext);
+    // Added 'token' from ShopContext
+    const { products, currency, cartItems, updateQuantity, getCartAmount, delivery_fee, navigate, token } = useContext(ShopContext);
     const [cartData, setCartData] = useState([]);
 
     useEffect(() => {
@@ -22,6 +23,16 @@ const Cart = () => {
         }
         setCartData(tempData);
     }, [cartItems]);
+
+    const handleCheckout = () => {
+        if (!token) {
+            // Redirect to Login if not authenticated
+            navigate('/login');
+        } else {
+            // Proceed to Place Order if authenticated
+            navigate('/placeorder');
+        }
+    };
 
     return (
         <div className='border-t pt-14'>
@@ -91,8 +102,8 @@ const Cart = () => {
 
                     <div className='w-full text-end'>
                         <button
-                            onClick={() => navigate('/placeorder')}
-                            className='bg-black text-white text-sm my-8 px-8 py-3'
+                            onClick={handleCheckout}
+                            className='bg-black text-white text-sm my-8 px-8 py-3 hover:bg-gray-800 transition cursor-pointer active:scale-95'
                         >
                             PROCEED TO CHECKOUT
                         </button>
